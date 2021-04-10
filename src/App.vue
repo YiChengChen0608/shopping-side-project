@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header />
-    <router-view/>
+    <div class="main-container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -17,5 +19,9 @@ export default {
 <style lang="scss">
 *{
   box-sizing: border-box;
+}
+.main-container{
+  max-width: 1280px;
+  margin: 0 auto;
 }
 </style>

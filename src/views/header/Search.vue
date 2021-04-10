@@ -51,8 +51,10 @@ export default {
     .input-container {
       width: 100%;
       position: relative;
+      min-height: $base-distance * 5;
       input {
         width: 100%;
+        min-height: $base-distance * 5;
         padding: $base-distance / 2;
         border-color: transparent;
       }
