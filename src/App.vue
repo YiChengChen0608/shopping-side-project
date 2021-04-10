@@ -4,14 +4,17 @@
     <div class="main-container">
       <router-view/>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '@/views/header/Header'
+import Footer from '@/views/Footer'
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
