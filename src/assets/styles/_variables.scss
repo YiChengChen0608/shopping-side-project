@@ -1,2 +1,24 @@
+// common variable
 $main-color : #f63;
 $base-distance : 8px;
+
+// mixin
+@mixin carousel_arrow{
+  display: none;
+  background-color: rgba(0,0,0,.18);
+  color: #fff;
+  width: 2rem;
+  height: 3.75rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  &:hover{
+    background-color: rgba(0,0,0,.4);
+  }
+  img{
+    width: 50%;
+    height: 50%;
+    transform: translateY(50%);
+  }
+}

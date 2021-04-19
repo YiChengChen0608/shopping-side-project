@@ -2,14 +2,14 @@
   <div class="card-wrapper">
     <div class="card-container">
       <div class="top-product">
-        <img src="@assets/img/App.jpeg" alt="">
+        <img src="/img/App.jpeg" alt="">
       </div>
       <div class="second-product">
         <div class="card-wrap">
-          <img src="@assets/img/App.jpeg" alt="">
+          <img src="/img/App.jpeg" alt="">
         </div>
         <div class="card-wrap">
-          <img src="@assets/img/App.jpeg" alt="">
+          <img src="/img/App.jpeg" alt="">
         </div>
       </div>
     </div>
